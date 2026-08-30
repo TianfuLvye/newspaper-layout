@@ -1,0 +1,134 @@
+{
+  "source": "2026-08-28-am.newspaper.ai.html",
+  "pages": 15,
+  "unique_articles": 26,
+  "template_counts": {
+    "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p09": 2,
+    "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p04": 2,
+    "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p31": 1,
+    "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p19": 9,
+    "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p01": 1
+  },
+  "most_repeated_template": [
+    "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p19",
+    9
+  ],
+  "consecutive_template_runs": [
+    {
+      "template": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p19",
+      "start_page": 4,
+      "end_page": 8,
+      "length": 5
+    },
+    {
+      "template": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p19",
+      "start_page": 12,
+      "end_page": 14,
+      "length": 3
+    }
+  ],
+  "front_template_pages": [
+    15
+  ],
+  "system_report_page": 3,
+  "data_fit_overflow_count": 4,
+  "actual_browser_overflows": [
+    {
+      "page": 11,
+      "article": "am24",
+      "overflow_px": 503.0
+    },
+    {
+      "page": 12,
+      "article": "am07",
+      "overflow_px": 113.5
+    },
+    {
+      "page": 13,
+      "article": "am10",
+      "overflow_px": 366.3
+    },
+    {
+      "page": 14,
+      "article": "am15",
+      "overflow_px": 1008.9
+    }
+  ],
+  "markdown_pipe_table_paragraphs": 1,
+  "duplicate_leading_heading_examples": [
+    {
+      "article": "am18",
+      "title": "从海鲜开始：鱼的鲜味和腥味，及去腥的科学方法。",
+      "body_h1": "从海鲜开始：鱼的鲜味、腥味及去腥的科学方法"
+    }
+  ],
+  "media_count": 15,
+  "real_img_count": 0,
+  "placeholder_count": 15,
+  "page_visual_utilization": [
+    {
+      "page": 1,
+      "utilization": 0.669
+    },
+    {
+      "page": 2,
+      "utilization": 0.701
+    },
+    {
+      "page": 3,
+      "utilization": 0.588
+    },
+    {
+      "page": 4,
+      "utilization": 0.718
+    },
+    {
+      "page": 5,
+      "utilization": 0.731
+    },
+    {
+      "page": 6,
+      "utilization": 0.738
+    },
+    {
+      "page": 7,
+      "utilization": 0.709
+    },
+    {
+      "page": 8,
+      "utilization": 0.689
+    },
+    {
+      "page": 9,
+      "utilization": 0.58
+    },
+    {
+      "page": 10,
+      "utilization": 0.558
+    },
+    {
+      "page": 11,
+      "utilization": 0.69
+    },
+    {
+      "page": 12,
+      "utilization": 0.776
+    },
+    {
+      "page": 13,
+      "utilization": 0.776
+    },
+    {
+      "page": 14,
+      "utilization": 0.776
+    },
+    {
+      "page": 15,
+      "utilization": 0.132
+    }
+  ],
+  "lowest_visual_utilization": {
+    "page": 15,
+    "utilization": 0.132
+  }
+}

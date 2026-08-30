@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>晨报</title>
+<style>
+
+:root {
+  --paper-width: 297mm;
+  --paper-height: 420mm;
+  --page-margin-top: 12mm;
+  --page-margin-right: 12mm;
+  --page-margin-bottom: 12mm;
+  --page-margin-left: 12mm;
+  --gutter: 4mm;
+  --rule: 0.22mm;
+  --ink: #111;
+  --muted: #595959;
+  --paper: #fff;
+  --body-size: 9pt;
+  --body-leading: 1.18;
+  --serif: "Noto Serif CJK SC", "Noto Serif SC", "Source Han Serif SC",
+           "Songti SC", "STSong", "Times New Roman", serif;
+  --sans: "Noto Sans CJK SC", "Noto Sans SC", "Source Han Sans SC",
+          "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #e9e9e9;
+  color: var(--ink);
+}
+
+body {
+  font-family: var(--serif);
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+}
+
+.newspaper-page {
+  position: relative;
+  width: var(--paper-width);
+  height: var(--paper-height);
+  margin: 8mm auto;
+  background: var(--paper);
+  overflow: hidden;
+  box-shadow: 0 1.5mm 5mm rgba(0,0,0,.16);
+  page-break-after: always;
+  break-after: page;
+}
+
+.page-furniture {
+  position: absolute;
+  left: var(--page-margin-left);
+  right: var(--page-margin-right);
+  top: 5mm;
+  height: 5mm;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  font: 600 7pt/1 var(--sans);
+  letter-spacing: .03em;
+  border-bottom: var(--rule) solid var(--ink);
+  padding-bottom: 1.2mm;
+}
+
+.front-masthead {
+  position: absolute;
+  left: var(--page-margin-left);
+  right: var(--page-margin-right);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: .8mm solid var(--ink);
+  overflow: hidden;
+}
+.front-masthead-name {
+  font: 800 58pt/.85 var(--serif);
+  letter-spacing: -.055em;
+}
+.front-masthead-meta {
+  margin-top: 3mm;
+  display: flex;
+  justify-content: space-between;
+  font: 700 8pt/1 var(--sans);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+.story-slot {
+  position: absolute;
+  overflow: hidden;
+  border-top: var(--rule) solid var(--ink);
+}
+.story-slot[data-role="lead"] { border-top-width: .45mm; }
+
+.story-slot-inner {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding-top: 1.4mm;
+  position: relative;
+}
+
+.story-content { width: 100%; color: var(--ink); }
+
+.story-header h1 {
+  margin: 0 0 2.1mm 0;
+  font-family: var(--serif);
+  font-weight: 780;
+  letter-spacing: -.025em;
+  text-wrap: balance;
+  hyphens: auto;
+}
+
+.headline-small .story-header h1      { font-size: 14pt; line-height: 1.02; }
+.headline-medium .story-header h1     { font-size: 19pt; line-height: .99; }
+.headline-large .story-header h1      { font-size: 27pt; line-height: .96; }
+.headline-very_large .story-header h1 { font-size: 38pt; line-height: .93; }
+
+.is-continuation .story-header h1 {
+  font-size: 12.5pt !important;
+  line-height: 1.05 !important;
+  margin-bottom: 1.6mm;
+  letter-spacing: -.01em;
+}
+.continuation-kicker {
+  margin-bottom: .8mm;
+  font: 800 7pt/1 var(--sans);
+  letter-spacing: .08em;
+  color: var(--muted);
+}
+
+.continuation-footer {
+  width: max-content;
+  max-width: 100%;
+  margin: 1.4mm 0 0 auto;
+  padding-top: .8mm;
+  border-top: .22mm solid var(--ink);
+  font: 800 7pt/1 var(--sans);
+  letter-spacing: .04em;
+}
+
+.story-body {
+  font-size: var(--body-size);
+  line-height: var(--body-leading);
+  column-count: var(--body-columns, 1);
+  column-gap: var(--gutter);
+  text-align: justify;
+  hyphens: auto;
+  orphans: 3;
+  widows: 3;
+}
+
+.story-body p { margin: 0 0 1.55mm 0; break-inside: auto; }
+.story-body p + p { text-indent: 1em; }
+
+.story-body h1,
+.story-body h2,
+.story-body h3,
+.story-body h4,
+.story-body h5,
+.story-body h6 {
+  font-family: var(--sans);
+  font-weight: 760;
+  line-height: 1.08;
+  text-align: left;
+  text-indent: 0;
+  margin: 2.2mm 0 1.1mm;
+  break-after: avoid-column;
+  break-inside: avoid-column;
+}
+.story-body h1 { font-size: 16pt; }
+.story-body h2 { font-size: 14pt; }
+.story-body h3 { font-size: 12.5pt; }
+.story-body h4 { font-size: 11pt; }
+.story-body h5 { font-size: 10pt; }
+.story-body h6 { font-size: 9.3pt; text-transform: uppercase; letter-spacing: .03em; }
+
+.story-body ul, .story-body ol { margin: 0 0 1.6mm 4mm; padding: 0; }
+.story-body li { margin: 0 0 .7mm 0; break-inside: avoid-column; }
+.story-body blockquote {
+  margin: 1.5mm 0; padding-left: 2.5mm;
+  border-left: .55mm solid var(--ink); font-style: italic;
+}
+.story-body code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: .88em;
+}
+
+/* Real Markdown tables, especially system-health reports. */
+.story-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5mm 0 2mm;
+  font: 6.7pt/1.15 var(--sans);
+  text-align: left;
+  break-inside: avoid;
+}
+.story-body th, .story-body td {
+  border-bottom: .18mm solid #aaa;
+  padding: .7mm .8mm;
+  vertical-align: top;
+}
+.story-body th { font-weight: 800; border-bottom-color: var(--ink); }
+
+.story-media { margin: 0; padding: 0; break-inside: avoid; }
+.story-media img, .media-placeholder {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  background: linear-gradient(135deg, #d8d8d8, #eeeeee);
+}
+.story-media figcaption {
+  margin-top: .8mm;
+  color: var(--muted);
+  font: 6.7pt/1.15 var(--sans);
+}
+
+.media-top, .media-middle { margin-bottom: 2mm; }
+.image-top .media-top, .image-middle .media-middle { margin-left: auto; margin-right: auto; }
+.image-small .media-top, .image-small .media-middle  { width: 52%; }
+.image-medium .media-top, .image-medium .media-middle { width: 74%; }
+.image-large .media-top, .image-large .media-middle  { width: 100%; }
+.image-middle .media-middle { margin-top: 2mm; margin-bottom: 0; }
+
+.story-side-layout {
+  display: grid;
+  column-gap: var(--gutter);
+  align-items: start;
+}
+.story-side-layout.side-left  { grid-template-areas: "media body"; }
+.story-side-layout.side-right { grid-template-areas: "body media"; }
+.story-side-layout .story-media { grid-area: media; }
+.story-side-layout .story-body  { grid-area: body; column-count: var(--side-body-columns, 1); }
+
+.image-small .story-side-layout  { grid-template-columns: 30% 1fr; }
+.image-medium .story-side-layout { grid-template-columns: 39% 1fr; }
+.image-large .story-side-layout  { grid-template-columns: 48% 1fr; }
+
+.story-slot.is-overflowing::after {
+  content: "排版溢出";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: .8mm 1.3mm;
+  background: #fff;
+  border: .22mm solid #900;
+  color: #900;
+  font: 800 6.5pt/1 var(--sans);
+  letter-spacing: .06em;
+}
+
+.debug-layout .story-slot {
+  outline: .35mm dashed rgba(180,0,0,.42);
+  outline-offset: -.35mm;
+}
+.debug-layout .story-slot[data-fit="overflow"] { background: rgba(220,0,0,.035); }
+
+.measure-host { margin: 0; padding: 0; background: white; }
+.measure-probe { width: 100mm; height: 1mm; }
+.measure-box { overflow: visible; background: white; }
+
+@page { size: A3 portrait; margin: 0; }
+
+@media print {
+  html, body { background: white; }
+  .newspaper-page { margin: 0; box-shadow: none; }
+}
+
+
+:root {
+  --paper-width: 297.0mm;
+  --paper-height: 420.0mm;
+  --page-margin-top: 12.0mm;
+  --page-margin-right: 12.0mm;
+  --page-margin-bottom: 12.0mm;
+  --page-margin-left: 12.0mm;
+  --gutter: 4.0mm;
+}
+
+</style>
+</head>
+<body class="">
+<section class="newspaper-page" data-template-id="The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p01" data-page-type="front"><div class="page-furniture"><span>晨报</span><span>2026-08-30</span><span>1</span></div><div class="front-masthead" style="top:13.00mm;height:99.22mm"><div class="front-masthead-name">晨报</div><div class="front-masthead-meta"><span>2026-08-30</span><span>PERSONAL EDITION</span></div></div><section class="story-slot" data-role="lead" data-slot-id="A" data-fit="fit" style="left:12.0000mm;top:117.2172mm;width:273.0000mm;height:111.3552mm"><div class="story-slot-inner"><article class="story-content headline-very_large body-cols-5" data-article-id="a02" data-original-article-id="a02" data-fragment-index="1" data-article-kind="normal" ><header class="story-header" data-measure-part="title"><h1>Markets move as investors reassess the week</h1></header><div class="story-body" data-measure-part="body" style="--body-columns:5;--side-body-columns:4"><h2>What changed</h2>
+<p>Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement.</p>
+</div></article></div></section><section class="story-slot" data-role="brief" data-slot-id="B" data-fit="fit" style="left:12.0000mm;top:229.8792mm;width:51.4000mm;height:172.0620mm"><div class="story-slot-inner"><article class="story-content headline-medium body-cols-1" data-article-id="a04" data-original-article-id="a04" data-fragment-index="1" data-article-kind="brief" ><header class="story-header" data-measure-part="title"><h1>Technology in brief</h1></header><div class="story-body" data-measure-part="body" style="--body-columns:1;--side-body-columns:1"><p>A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item.</p>
+</div></article></div></section><section class="story-slot" data-role="normal" data-slot-id="C" data-fit="fit" style="left:67.4000mm;top:228.1368mm;width:217.6000mm;height:174.0024mm"><div class="story-slot-inner"><article class="story-content headline-medium body-cols-4 image-large image-top" data-article-id="a03" data-original-article-id="a03" data-fragment-index="1" data-article-kind="normal" ><header class="story-header" data-measure-part="title"><h1>Science notes</h1></header><div class="story-body" data-measure-part="body" style="--body-columns:4;--side-body-columns:3"><h2>Research</h2>
+<p>A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful.</p>
+</div></article></div></section></section><section class="newspaper-page" data-template-id="The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p19" data-page-type="interior"><div class="page-furniture"><span>晨报</span><span>2026-08-30</span><span>2</span></div><section class="story-slot" data-role="normal" data-slot-id="A" data-fit="fit" style="left:12.0000mm;top:47.0064mm;width:273.0000mm;height:354.6576mm"><div class="story-slot-inner"><article class="story-content headline-very_large body-cols-5 image-large image-top" data-article-id="a01" data-original-article-id="a01" data-fragment-index="1" data-article-kind="long" ><header class="story-header" data-measure-part="title"><h1>A calmer way to read the day</h1></header><figure class="story-media media-top media-large" style="--image-ar:1.777778"><div class="media-placeholder" aria-label="Landscape image" style="aspect-ratio:1.777778"></div></figure><div class="story-body" data-measure-part="body" style="--body-columns:5;--side-body-columns:4"><h2>Signal over noise</h2>
+<p>A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about</p>
+</div><div class="continuation-footer">下转第 3 版</div></article></div></section></section><section class="newspaper-page" data-template-id="The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p02" data-page-type="interior"><div class="page-furniture"><span>晨报</span><span>2026-08-30</span><span>3</span></div><section class="story-slot" data-role="normal" data-slot-id="A" data-fit="fit" style="left:67.4000mm;top:24.9492mm;width:217.6000mm;height:163.3104mm"><div class="story-slot-inner"><article class="story-content headline-medium body-cols-4 is-continuation image-small image-middle" data-article-id="a01::cont2" data-original-article-id="a01" data-fragment-index="2" data-article-kind="long" ><header class="story-header continuation-header" data-measure-part="title"><div class="continuation-kicker">上接第 2 版</div><h1>A calmer way to read the day</h1></header><div class="story-body" data-measure-part="body" style="--body-columns:4;--side-body-columns:3"><p>attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality.</p>
+</div></article></div></section><section class="story-slot" data-role="brief" data-slot-id="B" data-fit="fit" style="left:12.0000mm;top:25.1472mm;width:51.4000mm;height:373.7448mm"><div class="story-slot-inner"><article class="story-content headline-medium body-cols-1" data-article-id="a06" data-original-article-id="a06" data-fragment-index="1" data-article-kind="system_report" ><header class="story-header" data-measure-part="title"><h1>System health report</h1></header><div class="story-body" data-measure-part="body" style="--body-columns:1;--side-body-columns:1"><h2>Daily checks</h2>
+<p>Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes.</p>
+</div></article></div></section><section class="story-slot" data-role="normal" data-slot-id="C" data-fit="fit" style="left:67.4000mm;top:191.1108mm;width:217.6000mm;height:211.8996mm"><div class="story-slot-inner"><article class="story-content headline-medium body-cols-4 image-medium image-top" data-article-id="a05" data-original-article-id="a05" data-fragment-index="1" data-article-kind="normal" ><header class="story-header" data-measure-part="title"><h1>Culture and books</h1></header><figure class="story-media media-top media-medium" style="--image-ar:1.555556"><div class="media-placeholder" aria-label="Books image" style="aspect-ratio:1.555556"></div></figure><div class="story-body" data-measure-part="body" style="--body-columns:4;--side-body-columns:3"><h2>Reading list</h2>
+<p>Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life.</p>
+</div></article></div></section></section>
+
+<script>
+window.addEventListener("load", async () => {
+  if (document.fonts && document.fonts.ready) await document.fonts.ready;
+  for (const slot of document.querySelectorAll(".story-slot")) {
+    const inner = slot.querySelector(".story-slot-inner");
+    const content = slot.querySelector(".story-content");
+    if (!inner || !content) continue;
+    const overflow = content.getBoundingClientRect().height > inner.clientHeight + 1;
+    slot.classList.toggle("is-overflowing", overflow);
+    slot.dataset.fit = overflow ? "overflow" : "fit";
+  }
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+.venv/
+.cache/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.DS_Store
+.env
+.env.*
+*.pem
+credentials.json

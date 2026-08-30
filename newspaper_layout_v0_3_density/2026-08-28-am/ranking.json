@@ -1,0 +1,106 @@
+{
+  "kind": "am",
+  "n_candidates": 54,
+  "n_coarse": 54,
+  "n_llm": 0,
+  "items": [
+    {
+      "n": 1,
+      "section": "headline",
+      "hash": "e5b6ee1be0d173cc7a73635a111c3dbe",
+      "title": "认为“SpaceX被低估”，大摩预测“2040年收入达3.5万亿美元”，马斯克回应“不，我估计2033年就能达到”",
+      "score": 0.4083760741813522
+    },
+    {
+      "n": 2,
+      "section": "headline",
+      "hash": "c8b87e163ea651930f2bddf442b2012c",
+      "title": "比尔·盖茨：就算机器人更便宜，有些工作也必须留给人类",
+      "score": 0.2779251879213738
+    },
+    {
+      "n": 3,
+      "section": "headline",
+      "hash": "64d3152e65798b2f246a3e32295a5d63",
+      "title": "连续两次加息！AI繁荣逼韩国央行抢跑，10月步伐是否放缓？",
+      "score": 0.3739778963308991
+    },
+    {
+      "n": 4,
+      "section": "deepread",
+      "hash": "899fcf520ac4c8767d3a75d6505f6f51",
+      "title": "今日知乎日报",
+      "score": 0.21061053568593222
+    },
+    {
+      "n": 5,
+      "section": "deepread",
+      "hash": "f6384be289b13956fe9d05c9a3fec35e",
+      "title": "如何评价蒋炎岩在课件中提出“没有Token的CS学生应该立刻退学”？",
+      "score": 0.32525629895495023
+    },
+    {
+      "n": 6,
+      "section": "deepread",
+      "hash": "c708cee4d2d9fe9910df463a4858742a",
+      "title": "海力士CEO：存储短缺将持续到2030年底，之后需求也无需担心",
+      "score": 0.35340136732519845
+    },
+    {
+      "n": 7,
+      "section": "deepread",
+      "hash": "fa351d5708ca6b293b49ed824b3403a2",
+      "title": "Salesforce大涨23%引爆SaaS反弹，华尔街重新押注传统软件",
+      "score": 0.3819662569775384
+    },
+    {
+      "n": 8,
+      "section": "deepread",
+      "hash": "52ed79fc077bd5e56c86ae31c5287e1b",
+      "title": "“AI央行”or“资产负债表即服务”质疑甚嚣尘上？英伟达叫停“收入分享换融资”模式",
+      "score": 0.37551481100909917
+    },
+    {
+      "n": 9,
+      "section": "deepread",
+      "hash": "51b8fc38278a0e46f02e3fe9cb975a0f",
+      "title": "7月规上工业企业利润：分化走扩",
+      "score": 0.330902994121415
+    },
+    {
+      "n": 10,
+      "section": "deepread",
+      "hash": "1be4252a929d5f16058f0ea583524ead",
+      "title": "机器人版本“MCP协议”，Claude推出“MHS协议”，便利大模型与机器人交互",
+      "score": 0.34533175616324446
+    },
+    {
+      "n": 11,
+      "section": "deepread",
+      "hash": "8d5f03637be5a29a63475ccd1c3110aa",
+      "title": "从“利率交易”转向“美元贬值交易” ，黄金上涨的逻辑变了",
+      "score": 0.39984743975677145
+    },
+    {
+      "n": 12,
+      "section": "critical",
+      "hash": "f97286e19090b4701c68d641cd4d5f61",
+      "title": "“新美联储通讯社”：历史重演，当面对战争，贝森特试探“美联储与财政部的界限”",
+      "score": 0.3328204027180364
+    },
+    {
+      "n": 13,
+      "section": "critical",
+      "hash": "e9427705f53f18c95f8f3c30fa9cf07f",
+      "title": "沃什杰克逊霍尔讲话料乏善可陈，沃勒9月表态或更具交易价值",
+      "score": 0.2438495404420852
+    },
+    {
+      "n": 14,
+      "section": "critical",
+      "hash": "2eab8a06fc2f27c90d4750e0e426a146",
+      "title": "老黄“霸气宣言”：我们遥遥领先！",
+      "score": 0.34598412301812664
+    }
+  ]
+}

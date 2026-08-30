@@ -1,0 +1,1644 @@
+{
+  "kind": "am",
+  "edition_id": "2026-08-28-am",
+  "lede": "今晨：SpaceX创始人马斯克公开回应摩根士丹利最新研报，认为大摩对公司收入规模的预测时间线过于保守。前世界首富比尔·盖茨提出“人类保留地”概念，主张陪审、教育、艺术等关乎人际连接的工作即使机器人更高效也应留给人。8月27日，韩国央行以6比1压倒性的投票结果将基准七天回购利率上调25个基点至3.00%。",
+  "density": "compact",
+  "n_pages": 14,
+  "n_articles": 26,
+  "n_placeholders": 0,
+  "n_empty_cells": 68,
+  "warnings": [
+    "本期共 68 格未填，3 处稿件夹缝，11 处中途版未填满。",
+    "第 1 版未填满: 第 2–4 栏 × 第 7–8 行（6 格）",
+    "第 2 版未填满: 第 1–2 栏 × 第 8 行（2 格）",
+    "第 2 版空洞: 第 4 栏 × 第 5 行（1 格）",
+    "第 3 版未填满: 第 1–4 栏 × 第 8 行（4 格）",
+    "第 4 版未填满: 第 4 栏 × 第 6–8 行（3 格）",
+    "第 5 版未填满: 第 1–4 栏 × 第 7–8 行（8 格）",
+    "第 5 版未填满: 第 1–2 栏 × 第 6–8 行（6 格）",
+    "第 6 版未填满: 第 1–4 栏 × 第 7–8 行（8 格）",
+    "第 7 版空洞: 第 4 栏 × 第 2–5 行（4 格）",
+    "第 8 版未填满: 第 1–2 栏 × 第 6–8 行（6 格）",
+    "第 10 版未填满: 第 1–2 栏 × 第 6–8 行（6 格）",
+    "第 11 版未填满: 第 1–2 栏 × 第 6–8 行（6 格）",
+    "第 12 版空洞: 第 3–4 栏 × 第 2–4 行（6 格）",
+    "第 13 版未填满: 第 1–2 栏 × 第 6–8 行（6 格）"
+  ],
+  "paper": {
+    "w_mm": 297.0,
+    "h_mm": 420.0,
+    "cols": 4,
+    "rows": 8
+  },
+  "pages": [
+    {
+      "index": 0,
+      "blocks": [
+        {
+          "kind": "masthead",
+          "section": "masthead",
+          "article_id": "",
+          "page": 0,
+          "cells": {
+            "c": 0,
+            "r": 0,
+            "w": 4,
+            "h": 2
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 8.0,
+            "w": 279.0,
+            "h": 97.3
+          },
+          "part": null,
+          "title": "",
+          "n_images": 0,
+          "n_text_cols": 1,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "inside",
+          "section": "inside",
+          "article_id": "inside",
+          "page": 0,
+          "cells": {
+            "c": 0,
+            "r": 2,
+            "w": 1,
+            "h": 6
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 107.9,
+            "w": 67.8,
+            "h": 297.1
+          },
+          "part": null,
+          "title": "",
+          "n_images": 0,
+          "n_text_cols": 1,
+          "teasers": [
+            [
+              "头版",
+              "比尔·盖茨：就算机器人更便宜，有些工作也必须留给人类",
+              1,
+              129
+            ],
+            [
+              "头版",
+              "认为“SpaceX被低估”，大摩预测“2040年收入达3.5万亿美元”，马斯克回应“不，我估计2033年就能达到”",
+              1,
+              2324
+            ],
+            [
+              "头版",
+              "连续两次加息！AI繁荣逼韩国央行抢跑，10月步伐是否放缓？",
+              1,
+              817
+            ],
+            [
+              "今日一问",
+              "老黄“霸气宣言”：我们遥遥领先！",
+              2,
+              160
+            ],
+            [
+              "订阅",
+              "朋友们，「狂暴」的8月终于要结束了，欢迎来到「The Moment」征集时刻！ 上个月，我们收到了超过1000份来自你们的夏日碎片，尽管天气炎热，7月的你们依然充满生命力，仿佛在集体备战奥运，有人游泳，有人打网球，有人骑行，有人桨板......大家投稿的运动种类多达16种。7月正逢四年一度的世界杯，尽管绿茵场的故事充满热血和遗憾，能和亲友一起熬夜看球也是幸福——「7月，一边暴躁，一边蓬勃」。 这个月，炎热继续，天气依然很不稳定，台风「白海豚」生命史超15天，跋涉超7000公里，造成大范围暴雨和水灾。8月也是暑假的最后一个月，不知道拥有暑假的你们都是如何度过的？这个月，我们告别了夏天，迎来了立秋，转眼2026年只剩下四个月了，点击「8月，我最难忘的瞬间」，和我们一起分享属于你的独特记忆吧，让我们抓住这快要溜走的8月。",
+              2,
+              29
+            ],
+            [
+              "订阅",
+              "胜宏科技实控人突然将近半数间接持股转给配偶",
+              2,
+              371
+            ],
+            [
+              "热榜",
+              "今日新上榜 Top 20",
+              2,
+              971
+            ],
+            [
+              "深度",
+              "海力士CEO：存储短缺将持续到2030年底，之后需求也无需担心",
+              3,
+              710
+            ],
+            [
+              "订阅",
+              "订阅目录",
+              3,
+              930
+            ],
+            [
+              "体检",
+              "系统体检",
+              3,
+              1505
+            ],
+            [
+              "深度",
+              "如何评价蒋炎岩在课件中提出“没有Token的CS学生应该立刻退学”？",
+              4,
+              1319
+            ],
+            [
+              "深度",
+              "Salesforce大涨23%引爆SaaS反弹，华尔街重新押注传统软件",
+              4,
+              946
+            ],
+            [
+              "深度",
+              "机器人版本“MCP协议”，Claude推出“MHS协议”，便利大模型与机器人交互",
+              4,
+              1230
+            ],
+            [
+              "今日一问",
+              "沃什杰克逊霍尔讲话料乏善可陈，沃勒9月表态或更具交易价值",
+              5,
+              783
+            ],
+            [
+              "口播",
+              "从海鲜开始：鱼的鲜味和腥味，及去腥的科学方法。",
+              5,
+              2022
+            ],
+            [
+              "订阅",
+              "从刘小样到更多的她，我们期待怎样的女性叙事？丨对谈张越",
+              6,
+              986
+            ],
+            [
+              "订阅",
+              "机票退改新标准或出台，工信部严禁未充分测试验证的汽车入市，千问Qwen3.8-Flash发布，OpenAI推首款芯片，这就是今天的其他大新闻！",
+              6,
+              1280
+            ],
+            [
+              "今日一问",
+              "“新美联储通讯社”：历史重演，当面对战争，贝森特试探“美联储与财政部的界限”",
+              7,
+              1999
+            ],
+            [
+              "深度",
+              "今日知乎日报",
+              7,
+              2839
+            ],
+            [
+              "深度",
+              "从“利率交易”转向“美元贬值交易” ，黄金上涨的逻辑变了",
+              8,
+              2204
+            ],
+            [
+              "订阅",
+              "早就退了手机圈的黑莓，在汽车圈混得风生水起。",
+              9,
+              2046
+            ]
+          ],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "headline",
+          "article_id": "F02",
+          "page": 0,
+          "cells": {
+            "c": 1,
+            "r": 2,
+            "w": 1,
+            "h": 2
+          },
+          "mm": {
+            "x": 79.39999999999999,
+            "y": 107.9,
+            "w": 67.8,
+            "h": 97.3
+          },
+          "part": 0,
+          "title": "比尔·盖茨：就算机器人更便宜，有些工作也必须留给人类",
+          "n_images": 0,
+          "n_text_cols": 1,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "headline",
+          "article_id": "F01",
+          "page": 0,
+          "cells": {
+            "c": 2,
+            "r": 2,
+            "w": 2,
+            "h": 2
+          },
+          "mm": {
+            "x": 149.79999999999998,
+            "y": 107.9,
+            "w": 138.2,
+            "h": 97.3
+          },
+          "part": 0,
+          "title": "认为“SpaceX被低估”，大摩预测“2040年收入达3.5万亿美元”，马斯克回应“不，我估计2033年就能达到”",
+          "n_images": 0,
+          "n_text_cols": 2,
+          "teasers": [],
+          "jump_to": 2,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "headline",
+          "article_id": "F03",
+          "page": 0,
+          "cells": {
+            "c": 1,
+            "r": 4,
+            "w": 3,
+            "h": 2
+          },
+          "mm": {
+            "x": 79.39999999999999,
+            "y": 207.8,
+            "w": 208.59999999999997,
+            "h": 97.3
+          },
+          "part": 0,
+          "title": "连续两次加息！AI繁荣逼韩国央行抢跑，10月步伐是否放缓？",
+          "n_images": 2,
+          "n_text_cols": 2,
+          "teasers": [],
+          "jump_to": 3,
+          "jump_from": null,
+          "truncated": false
+        }
+      ],
+      "holes": [
+        {
+          "c": 1,
+          "r": 6,
+          "w": 3,
+          "h": 2,
+          "kind": "remainder",
+          "area": 6
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "blocks": [
+        {
+          "kind": "folio",
+          "section": "masthead",
+          "article_id": "",
+          "page": 1,
+          "cells": {
+            "c": 0,
+            "r": 0,
+            "w": 4,
+            "h": 1
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 8.0,
+            "w": 279.0,
+            "h": 47.35
+          },
+          "part": null,
+          "title": "",
+          "n_images": 0,
+          "n_text_cols": 1,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "headline",
+          "article_id": "F01",
+          "page": 1,
+          "cells": {
+            "c": 0,
+            "r": 1,
+            "w": 2,
+            "h": 6
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 57.95,
+            "w": 138.2,
+            "h": 297.1
+          },
+          "part": 1,
+          "title": "认为“SpaceX被低估”，大摩预测“2040年收入达3.5万亿美元”，马斯克回应“不，我估计2033年就能达到”",
+          "n_images": 2,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": 1,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "critical",
+          "article_id": "F14",
+          "page": 1,
+          "cells": {
+            "c": 2,
+            "r": 1,
+            "w": 1,
+            "h": 2
+          },
+          "mm": {
+            "x": 149.79999999999998,
+            "y": 57.95,
+            "w": 67.8,
+            "h": 97.3
+          },
+          "part": 0,
+          "title": "老黄“霸气宣言”：我们遥遥领先！",
+          "n_images": 0,
+          "n_text_cols": 1,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "subscribe",
+          "article_id": "subscribe-09",
+          "page": 1,
+          "cells": {
+            "c": 2,
+            "r": 3,
+            "w": 1,
+            "h": 2
+          },
+          "mm": {
+            "x": 149.79999999999998,
+            "y": 157.85000000000002,
+            "w": 67.8,
+            "h": 97.3
+          },
+          "part": 0,
+          "title": "朋友们，「狂暴」的8月终于要结束了，欢迎来到「The Moment」征集时刻！ 上个月，我们收到了超过1000份来自你们的夏日碎片，尽管天气炎热，7月的你们依然充满生命力，仿佛在集体备战奥运，有人游泳，有人打网球，有人骑行，有人桨板......大家投稿的运动种类多达16种。7月正逢四年一度的世界杯，尽管绿茵场的故事充满热血和遗憾，能和亲友一起熬夜看球也是幸福——「7月，一边暴躁，一边蓬勃」。 这个月，炎热继续，天气依然很不稳定，台风「白海豚」生命史超15天，跋涉超7000公里，造成大范围暴雨和水灾。8月也是暑假的最后一个月，不知道拥有暑假的你们都是如何度过的？这个月，我们告别了夏天，迎来了立秋，转眼2026年只剩下四个月了，点击「8月，我最难忘的瞬间」，和我们一起分享属于你的独特记忆吧，让我们抓住这快要溜走的8月。",
+          "n_images": 0,
+          "n_text_cols": 1,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "subscribe",
+          "article_id": "subscribe-07",
+          "page": 1,
+          "cells": {
+            "c": 3,
+            "r": 1,
+            "w": 1,
+            "h": 3
+          },
+          "mm": {
+            "x": 220.2,
+            "y": 57.95,
+            "w": 67.8,
+            "h": 147.25
+          },
+          "part": 0,
+          "title": "胜宏科技实控人突然将近半数间接持股转给配偶",
+          "n_images": 0,
+          "n_text_cols": 1,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "index",
+          "section": "hotlist",
+          "article_id": "hotlist-index",
+          "page": 1,
+          "cells": {
+            "c": 2,
+            "r": 5,
+            "w": 2,
+            "h": 3
+          },
+          "mm": {
+            "x": 149.79999999999998,
+            "y": 257.75,
+            "w": 138.2,
+            "h": 147.25
+          },
+          "part": 0,
+          "title": "今日新上榜 Top 20",
+          "n_images": 0,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        }
+      ],
+      "holes": [
+        {
+          "c": 0,
+          "r": 7,
+          "w": 2,
+          "h": 1,
+          "kind": "remainder",
+          "area": 2
+        },
+        {
+          "c": 3,
+          "r": 4,
+          "w": 1,
+          "h": 1,
+          "kind": "gap",
+          "area": 1
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "blocks": [
+        {
+          "kind": "folio",
+          "section": "masthead",
+          "article_id": "",
+          "page": 2,
+          "cells": {
+            "c": 0,
+            "r": 0,
+            "w": 4,
+            "h": 1
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 8.0,
+            "w": 279.0,
+            "h": 47.35
+          },
+          "part": null,
+          "title": "",
+          "n_images": 0,
+          "n_text_cols": 1,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "headline",
+          "article_id": "F03",
+          "page": 2,
+          "cells": {
+            "c": 0,
+            "r": 1,
+            "w": 2,
+            "h": 3
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 57.95,
+            "w": 138.2,
+            "h": 147.25
+          },
+          "part": 1,
+          "title": "连续两次加息！AI繁荣逼韩国央行抢跑，10月步伐是否放缓？",
+          "n_images": 1,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": 1,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "deepread",
+          "article_id": "F06",
+          "page": 2,
+          "cells": {
+            "c": 0,
+            "r": 4,
+            "w": 2,
+            "h": 3
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 207.8,
+            "w": 138.2,
+            "h": 147.25
+          },
+          "part": 0,
+          "title": "海力士CEO：存储短缺将持续到2030年底，之后需求也无需担心",
+          "n_images": 1,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "index",
+          "section": "subscribe",
+          "article_id": "subscribe-toc",
+          "page": 2,
+          "cells": {
+            "c": 2,
+            "r": 1,
+            "w": 2,
+            "h": 3
+          },
+          "mm": {
+            "x": 149.79999999999998,
+            "y": 57.95,
+            "w": 138.2,
+            "h": 147.25
+          },
+          "part": 0,
+          "title": "订阅目录",
+          "n_images": 0,
+          "n_text_cols": 2,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "index",
+          "section": "health",
+          "article_id": "health-index",
+          "page": 2,
+          "cells": {
+            "c": 2,
+            "r": 4,
+            "w": 2,
+            "h": 3
+          },
+          "mm": {
+            "x": 149.79999999999998,
+            "y": 207.8,
+            "w": 138.2,
+            "h": 147.25
+          },
+          "part": 0,
+          "title": "系统体检",
+          "n_images": 0,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        }
+      ],
+      "holes": [
+        {
+          "c": 0,
+          "r": 7,
+          "w": 4,
+          "h": 1,
+          "kind": "remainder",
+          "area": 4
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "blocks": [
+        {
+          "kind": "folio",
+          "section": "masthead",
+          "article_id": "",
+          "page": 3,
+          "cells": {
+            "c": 0,
+            "r": 0,
+            "w": 4,
+            "h": 1
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 8.0,
+            "w": 279.0,
+            "h": 47.35
+          },
+          "part": null,
+          "title": "",
+          "n_images": 0,
+          "n_text_cols": 1,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "deepread",
+          "article_id": "F05",
+          "page": 3,
+          "cells": {
+            "c": 0,
+            "r": 1,
+            "w": 2,
+            "h": 4
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 57.95,
+            "w": 138.2,
+            "h": 197.20000000000002
+          },
+          "part": 0,
+          "title": "如何评价蒋炎岩在课件中提出“没有Token的CS学生应该立刻退学”？",
+          "n_images": 0,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "deepread",
+          "article_id": "F07",
+          "page": 3,
+          "cells": {
+            "c": 2,
+            "r": 1,
+            "w": 2,
+            "h": 4
+          },
+          "mm": {
+            "x": 149.79999999999998,
+            "y": 57.95,
+            "w": 138.2,
+            "h": 197.20000000000002
+          },
+          "part": 0,
+          "title": "Salesforce大涨23%引爆SaaS反弹，华尔街重新押注传统软件",
+          "n_images": 2,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "deepread",
+          "article_id": "F10",
+          "page": 3,
+          "cells": {
+            "c": 0,
+            "r": 5,
+            "w": 3,
+            "h": 3
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 257.75,
+            "w": 208.59999999999997,
+            "h": 147.25
+          },
+          "part": 0,
+          "title": "机器人版本“MCP协议”，Claude推出“MHS协议”，便利大模型与机器人交互",
+          "n_images": 1,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        }
+      ],
+      "holes": [
+        {
+          "c": 3,
+          "r": 5,
+          "w": 1,
+          "h": 3,
+          "kind": "remainder",
+          "area": 3
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "blocks": [
+        {
+          "kind": "folio",
+          "section": "masthead",
+          "article_id": "",
+          "page": 4,
+          "cells": {
+            "c": 0,
+            "r": 0,
+            "w": 4,
+            "h": 1
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 8.0,
+            "w": 279.0,
+            "h": 47.35
+          },
+          "part": null,
+          "title": "",
+          "n_images": 0,
+          "n_text_cols": 1,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "critical",
+          "article_id": "F13",
+          "page": 4,
+          "cells": {
+            "c": 0,
+            "r": 1,
+            "w": 2,
+            "h": 4
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 57.95,
+            "w": 138.2,
+            "h": 197.20000000000002
+          },
+          "part": 0,
+          "title": "沃什杰克逊霍尔讲话料乏善可陈，沃勒9月表态或更具交易价值",
+          "n_images": 2,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "oral",
+          "article_id": "oral-01",
+          "page": 4,
+          "cells": {
+            "c": 2,
+            "r": 1,
+            "w": 2,
+            "h": 5
+          },
+          "mm": {
+            "x": 149.79999999999998,
+            "y": 57.95,
+            "w": 138.2,
+            "h": 247.15
+          },
+          "part": 0,
+          "title": "从海鲜开始：鱼的鲜味和腥味，及去腥的科学方法。",
+          "n_images": 1,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        }
+      ],
+      "holes": [
+        {
+          "c": 0,
+          "r": 6,
+          "w": 4,
+          "h": 2,
+          "kind": "remainder",
+          "area": 8
+        },
+        {
+          "c": 0,
+          "r": 5,
+          "w": 2,
+          "h": 3,
+          "kind": "remainder",
+          "area": 6
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "blocks": [
+        {
+          "kind": "folio",
+          "section": "masthead",
+          "article_id": "",
+          "page": 5,
+          "cells": {
+            "c": 0,
+            "r": 0,
+            "w": 4,
+            "h": 1
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 8.0,
+            "w": 279.0,
+            "h": 47.35
+          },
+          "part": null,
+          "title": "",
+          "n_images": 0,
+          "n_text_cols": 1,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "subscribe",
+          "article_id": "subscribe-02",
+          "page": 5,
+          "cells": {
+            "c": 0,
+            "r": 1,
+            "w": 2,
+            "h": 5
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 57.95,
+            "w": 138.2,
+            "h": 247.15
+          },
+          "part": 0,
+          "title": "从刘小样到更多的她，我们期待怎样的女性叙事？丨对谈张越",
+          "n_images": 2,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "subscribe",
+          "article_id": "subscribe-04",
+          "page": 5,
+          "cells": {
+            "c": 2,
+            "r": 1,
+            "w": 2,
+            "h": 5
+          },
+          "mm": {
+            "x": 149.79999999999998,
+            "y": 57.95,
+            "w": 138.2,
+            "h": 247.15
+          },
+          "part": 0,
+          "title": "机票退改新标准或出台，工信部严禁未充分测试验证的汽车入市，千问Qwen3.8-Flash发布，OpenAI推首款芯片，这就是今天的其他大新闻！",
+          "n_images": 1,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        }
+      ],
+      "holes": [
+        {
+          "c": 0,
+          "r": 6,
+          "w": 4,
+          "h": 2,
+          "kind": "remainder",
+          "area": 8
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "blocks": [
+        {
+          "kind": "folio",
+          "section": "masthead",
+          "article_id": "",
+          "page": 6,
+          "cells": {
+            "c": 0,
+            "r": 0,
+            "w": 4,
+            "h": 1
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 8.0,
+            "w": 279.0,
+            "h": 47.35
+          },
+          "part": null,
+          "title": "",
+          "n_images": 0,
+          "n_text_cols": 1,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "critical",
+          "article_id": "F12",
+          "page": 6,
+          "cells": {
+            "c": 0,
+            "r": 1,
+            "w": 3,
+            "h": 4
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 57.95,
+            "w": 208.59999999999997,
+            "h": 197.20000000000002
+          },
+          "part": 0,
+          "title": "“新美联储通讯社”：历史重演，当面对战争，贝森特试探“美联储与财政部的界限”",
+          "n_images": 1,
+          "n_text_cols": 4,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "deepread",
+          "article_id": "F04",
+          "page": 6,
+          "cells": {
+            "c": 0,
+            "r": 5,
+            "w": 4,
+            "h": 3
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 257.75,
+            "w": 279.0,
+            "h": 147.25
+          },
+          "part": 0,
+          "title": "今日知乎日报",
+          "n_images": 3,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": 8,
+          "jump_from": null,
+          "truncated": false
+        }
+      ],
+      "holes": [
+        {
+          "c": 3,
+          "r": 1,
+          "w": 1,
+          "h": 4,
+          "kind": "gap",
+          "area": 4
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "blocks": [
+        {
+          "kind": "folio",
+          "section": "masthead",
+          "article_id": "",
+          "page": 7,
+          "cells": {
+            "c": 0,
+            "r": 0,
+            "w": 4,
+            "h": 1
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 8.0,
+            "w": 279.0,
+            "h": 47.35
+          },
+          "part": null,
+          "title": "",
+          "n_images": 0,
+          "n_text_cols": 1,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "deepread",
+          "article_id": "F04",
+          "page": 7,
+          "cells": {
+            "c": 0,
+            "r": 1,
+            "w": 2,
+            "h": 4
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 57.95,
+            "w": 138.2,
+            "h": 197.20000000000002
+          },
+          "part": 1,
+          "title": "今日知乎日报",
+          "n_images": 0,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": 7,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "deepread",
+          "article_id": "F11",
+          "page": 7,
+          "cells": {
+            "c": 2,
+            "r": 1,
+            "w": 2,
+            "h": 7
+          },
+          "mm": {
+            "x": 149.79999999999998,
+            "y": 57.95,
+            "w": 138.2,
+            "h": 347.05
+          },
+          "part": 0,
+          "title": "从“利率交易”转向“美元贬值交易” ，黄金上涨的逻辑变了",
+          "n_images": 3,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        }
+      ],
+      "holes": [
+        {
+          "c": 0,
+          "r": 5,
+          "w": 2,
+          "h": 3,
+          "kind": "remainder",
+          "area": 6
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "blocks": [
+        {
+          "kind": "folio",
+          "section": "masthead",
+          "article_id": "",
+          "page": 8,
+          "cells": {
+            "c": 0,
+            "r": 0,
+            "w": 4,
+            "h": 1
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 8.0,
+            "w": 279.0,
+            "h": 47.35
+          },
+          "part": null,
+          "title": "",
+          "n_images": 0,
+          "n_text_cols": 1,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "subscribe",
+          "article_id": "subscribe-08",
+          "page": 8,
+          "cells": {
+            "c": 0,
+            "r": 1,
+            "w": 2,
+            "h": 7
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 57.95,
+            "w": 138.2,
+            "h": 347.05
+          },
+          "part": 0,
+          "title": "早就退了手机圈的黑莓，在汽车圈混得风生水起。",
+          "n_images": 3,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "deepread",
+          "article_id": "F08",
+          "page": 8,
+          "cells": {
+            "c": 2,
+            "r": 1,
+            "w": 2,
+            "h": 7
+          },
+          "mm": {
+            "x": 149.79999999999998,
+            "y": 57.95,
+            "w": 138.2,
+            "h": 347.05
+          },
+          "part": 0,
+          "title": "“AI央行”or“资产负债表即服务”质疑甚嚣尘上？英伟达叫停“收入分享换融资”模式",
+          "n_images": 3,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": 10,
+          "jump_from": null,
+          "truncated": false
+        }
+      ],
+      "holes": []
+    },
+    {
+      "index": 9,
+      "blocks": [
+        {
+          "kind": "folio",
+          "section": "masthead",
+          "article_id": "",
+          "page": 9,
+          "cells": {
+            "c": 0,
+            "r": 0,
+            "w": 4,
+            "h": 1
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 8.0,
+            "w": 279.0,
+            "h": 47.35
+          },
+          "part": null,
+          "title": "",
+          "n_images": 0,
+          "n_text_cols": 1,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "deepread",
+          "article_id": "F08",
+          "page": 9,
+          "cells": {
+            "c": 0,
+            "r": 1,
+            "w": 2,
+            "h": 4
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 57.95,
+            "w": 138.2,
+            "h": 197.20000000000002
+          },
+          "part": 1,
+          "title": "“AI央行”or“资产负债表即服务”质疑甚嚣尘上？英伟达叫停“收入分享换融资”模式",
+          "n_images": 0,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": 9,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "deepread",
+          "article_id": "F09",
+          "page": 9,
+          "cells": {
+            "c": 2,
+            "r": 1,
+            "w": 2,
+            "h": 7
+          },
+          "mm": {
+            "x": 149.79999999999998,
+            "y": 57.95,
+            "w": 138.2,
+            "h": 347.05
+          },
+          "part": 0,
+          "title": "7月规上工业企业利润：分化走扩",
+          "n_images": 3,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": 11,
+          "jump_from": null,
+          "truncated": false
+        }
+      ],
+      "holes": [
+        {
+          "c": 0,
+          "r": 5,
+          "w": 2,
+          "h": 3,
+          "kind": "remainder",
+          "area": 6
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "blocks": [
+        {
+          "kind": "folio",
+          "section": "masthead",
+          "article_id": "",
+          "page": 10,
+          "cells": {
+            "c": 0,
+            "r": 0,
+            "w": 4,
+            "h": 1
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 8.0,
+            "w": 279.0,
+            "h": 47.35
+          },
+          "part": null,
+          "title": "",
+          "n_images": 0,
+          "n_text_cols": 1,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "deepread",
+          "article_id": "F09",
+          "page": 10,
+          "cells": {
+            "c": 0,
+            "r": 1,
+            "w": 2,
+            "h": 4
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 57.95,
+            "w": 138.2,
+            "h": 197.20000000000002
+          },
+          "part": 1,
+          "title": "7月规上工业企业利润：分化走扩",
+          "n_images": 0,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": 10,
+          "truncated": true
+        },
+        {
+          "kind": "story",
+          "section": "subscribe",
+          "article_id": "subscribe-11",
+          "page": 10,
+          "cells": {
+            "c": 2,
+            "r": 1,
+            "w": 2,
+            "h": 7
+          },
+          "mm": {
+            "x": 149.79999999999998,
+            "y": 57.95,
+            "w": 138.2,
+            "h": 347.05
+          },
+          "part": 0,
+          "title": "别说车难卖，年轻人连驾照都不考了。。。",
+          "n_images": 2,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": 12,
+          "jump_from": null,
+          "truncated": false
+        }
+      ],
+      "holes": [
+        {
+          "c": 0,
+          "r": 5,
+          "w": 2,
+          "h": 3,
+          "kind": "remainder",
+          "area": 6
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "blocks": [
+        {
+          "kind": "folio",
+          "section": "masthead",
+          "article_id": "",
+          "page": 11,
+          "cells": {
+            "c": 0,
+            "r": 0,
+            "w": 4,
+            "h": 1
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 8.0,
+            "w": 279.0,
+            "h": 47.35
+          },
+          "part": null,
+          "title": "",
+          "n_images": 0,
+          "n_text_cols": 1,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "subscribe",
+          "article_id": "subscribe-11",
+          "page": 11,
+          "cells": {
+            "c": 0,
+            "r": 1,
+            "w": 2,
+            "h": 3
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 57.95,
+            "w": 138.2,
+            "h": 147.25
+          },
+          "part": 1,
+          "title": "别说车难卖，年轻人连驾照都不考了。。。",
+          "n_images": 0,
+          "n_text_cols": 2,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": 11,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "subscribe",
+          "article_id": "subscribe-13",
+          "page": 11,
+          "cells": {
+            "c": 0,
+            "r": 4,
+            "w": 4,
+            "h": 4
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 207.8,
+            "w": 279.0,
+            "h": 197.20000000000002
+          },
+          "part": 0,
+          "title": "两千多的Mac mini没买，现在新款卖到7000了。。。",
+          "n_images": 3,
+          "n_text_cols": 4,
+          "teasers": [],
+          "jump_to": 13,
+          "jump_from": null,
+          "truncated": false
+        }
+      ],
+      "holes": [
+        {
+          "c": 2,
+          "r": 1,
+          "w": 2,
+          "h": 3,
+          "kind": "gap",
+          "area": 6
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "blocks": [
+        {
+          "kind": "folio",
+          "section": "masthead",
+          "article_id": "",
+          "page": 12,
+          "cells": {
+            "c": 0,
+            "r": 0,
+            "w": 4,
+            "h": 1
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 8.0,
+            "w": 279.0,
+            "h": 47.35
+          },
+          "part": null,
+          "title": "",
+          "n_images": 0,
+          "n_text_cols": 1,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "subscribe",
+          "article_id": "subscribe-13",
+          "page": 12,
+          "cells": {
+            "c": 0,
+            "r": 1,
+            "w": 2,
+            "h": 4
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 57.95,
+            "w": 138.2,
+            "h": 197.20000000000002
+          },
+          "part": 1,
+          "title": "两千多的Mac mini没买，现在新款卖到7000了。。。",
+          "n_images": 0,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": 12,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "subscribe",
+          "article_id": "subscribe-06",
+          "page": 12,
+          "cells": {
+            "c": 2,
+            "r": 1,
+            "w": 2,
+            "h": 7
+          },
+          "mm": {
+            "x": 149.79999999999998,
+            "y": 57.95,
+            "w": 138.2,
+            "h": 347.05
+          },
+          "part": 0,
+          "title": "我的父母，晚年决定离婚",
+          "n_images": 3,
+          "n_text_cols": 3,
+          "teasers": [],
+          "jump_to": 14,
+          "jump_from": null,
+          "truncated": false
+        }
+      ],
+      "holes": [
+        {
+          "c": 0,
+          "r": 5,
+          "w": 2,
+          "h": 3,
+          "kind": "remainder",
+          "area": 6
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "blocks": [
+        {
+          "kind": "folio",
+          "section": "masthead",
+          "article_id": "",
+          "page": 13,
+          "cells": {
+            "c": 0,
+            "r": 0,
+            "w": 4,
+            "h": 1
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 8.0,
+            "w": 279.0,
+            "h": 47.35
+          },
+          "part": null,
+          "title": "",
+          "n_images": 0,
+          "n_text_cols": 1,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": null,
+          "truncated": false
+        },
+        {
+          "kind": "story",
+          "section": "subscribe",
+          "article_id": "subscribe-06",
+          "page": 13,
+          "cells": {
+            "c": 0,
+            "r": 1,
+            "w": 4,
+            "h": 7
+          },
+          "mm": {
+            "x": 9.0,
+            "y": 57.95,
+            "w": 279.0,
+            "h": 347.05
+          },
+          "part": 1,
+          "title": "我的父母，晚年决定离婚",
+          "n_images": 0,
+          "n_text_cols": 6,
+          "teasers": [],
+          "jump_to": null,
+          "jump_from": 13,
+          "truncated": false
+        }
+      ],
+      "holes": []
+    }
+  ]
+}

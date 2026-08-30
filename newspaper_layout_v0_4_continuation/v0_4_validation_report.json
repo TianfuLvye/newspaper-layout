@@ -1,0 +1,38 @@
+{
+  "version": "0.4.0",
+  "tests_returncode": 0,
+  "tests": "\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m                                                         [100%]\u001b[0m\n\u001b[32m\u001b[32m\u001b[1m16 passed\u001b[0m\u001b[32m in 4.37s\u001b[0m\u001b[0m",
+  "real_dataset_audit": {
+    "pages": 15,
+    "articles": 26,
+    "p19_uses": 9,
+    "front_template_page": [
+      15
+    ],
+    "browser_overflow_count": 4,
+    "system_report_page": 3,
+    "markdown_table_bug_found": 1,
+    "duplicate_heading_bug_found": 1
+  },
+  "v04_end_to_end_sample": {
+    "pages": 3,
+    "templates": [
+      "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p01",
+      "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p19",
+      "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p02"
+    ],
+    "front_page_is_first": true,
+    "predicted_overflow_count": 0,
+    "continuation_splits": 1,
+    "page_utilization": [
+      0.432,
+      0.627,
+      0.522
+    ],
+    "continuation_links_verified_in_browser": {
+      "down": "下转第 3 版",
+      "up": "上接第 2 版",
+      "actual_dom_overflow_count": 0
+    }
+  }
+}

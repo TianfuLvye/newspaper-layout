@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "tests_returncode": 0,
+  "tests": "\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m                                                                   [100%]\u001b[0m\n\u001b[32m\u001b[32m\u001b[1m6 passed\u001b[0m\u001b[32m in 1.30s\u001b[0m\u001b[0m",
+  "guardian_exact_sample": {
+    "templates_source": "The_Guardian_UK_-_16_April_templates.zip",
+    "articles": 6,
+    "pages": 2,
+    "all_articles_assigned": true,
+    "predicted_continuations": 1,
+    "observed_dom_overflows": 1,
+    "measurement_renderer_consistent": true
+  }
+}

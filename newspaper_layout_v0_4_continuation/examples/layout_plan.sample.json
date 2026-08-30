@@ -1,0 +1,182 @@
+{
+  "total_cost": 71.17809902607952,
+  "pages": [
+    {
+      "template_id": "The_Guardian_UK_-_16_April_p07",
+      "page_index": 0,
+      "assignments": [
+        {
+          "article_id": "a0",
+          "slot_id": "A",
+          "total": 6.089498859582576,
+          "fit": 1.5894988595825754,
+          "role": 0.8999999999999999,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 262.2571472222222,
+          "slot_height_mm": 349.5888
+        },
+        {
+          "article_id": "a4",
+          "slot_id": "B",
+          "total": 1.8745345227329278,
+          "fit": 0.5745345227329289,
+          "role": 0.2599999999999998,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 195.9131472222222,
+          "slot_height_mm": 220.2948
+        },
+        {
+          "article_id": "a2",
+          "slot_id": "C",
+          "total": 4.805096390719207,
+          "fit": 0.10509639071920733,
+          "role": 0.5799999999999998,
+          "image": 0.45,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 123.34736944444442,
+          "slot_height_mm": 126.95760000000004
+        }
+      ],
+      "template_cost": 0.0,
+      "order_cost": 3.0,
+      "total_cost": 15.76912977303471
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p09",
+      "page_index": 1,
+      "assignments": [
+        {
+          "article_id": "a6",
+          "slot_id": "A",
+          "total": 2.9922210352243748,
+          "fit": 0.4922210352243749,
+          "role": 0.5,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 246.1601472222222,
+          "slot_height_mm": 272.844
+        },
+        {
+          "article_id": "a5",
+          "slot_id": "B",
+          "total": 6.631198731747391,
+          "fit": 0.5311987317473919,
+          "role": 0.09999999999999987,
+          "image": 1.4,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 243.5246472222222,
+          "slot_height_mm": 271.7748
+        },
+        {
+          "article_id": "a1",
+          "slot_id": "C",
+          "total": 10.203197315763049,
+          "fit": 0.9031973157630484,
+          "role": 0.74,
+          "image": 1.4,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 66.3455361111111,
+          "slot_height_mm": 78.88319999999997
+        }
+      ],
+      "template_cost": 0.0,
+      "order_cost": 1.3333333333333333,
+      "total_cost": 21.159950416068146
+    },
+    {
+      "template_id": "The_Guardian_UK_-_16_April_p07",
+      "page_index": 2,
+      "assignments": [
+        {
+          "article_id": "a9",
+          "slot_id": "A",
+          "total": 11.654000576984252,
+          "fit": 0.1540005769842513,
+          "role": 0.54,
+          "image": 2.2,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 336.0935361111111,
+          "slot_height_mm": 349.5888
+        },
+        {
+          "article_id": "a7",
+          "slot_id": "B",
+          "total": 7.179362520184808,
+          "fit": 0.4793625201848073,
+          "role": 0.2200000000000002,
+          "image": 1.4,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 199.2016472222222,
+          "slot_height_mm": 220.2948
+        },
+        {
+          "article_id": "a3",
+          "slot_id": "C",
+          "total": 12.272036506583285,
+          "fit": 0.17203650658328534,
+          "role": 0.41999999999999993,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 1.0,
+          "predicted_splits": 1,
+          "required_height_mm": 131.7646472222222,
+          "slot_height_mm": 126.95760000000004
+        }
+      ],
+      "template_cost": 0.0,
+      "order_cost": 0.42666666666666675,
+      "total_cost": 31.532066270419012
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p19",
+      "page_index": 3,
+      "assignments": [
+        {
+          "article_id": "a8",
+          "slot_id": "A",
+          "total": 2.7169525665576564,
+          "fit": 0.8169525665576558,
+          "role": 0.3800000000000001,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 302.63731388888885,
+          "slot_height_mm": 354.6576
+        }
+      ],
+      "template_cost": 0.0,
+      "order_cost": 0.0,
+      "total_cost": 2.7169525665576564
+    }
+  ],
+  "unassigned_article_ids": []
+}

@@ -1,0 +1,28 @@
+{
+  "version": "0.3.0",
+  "status": "ok",
+  "tests": "10 passed",
+  "changes": {
+    "page_density": {
+      "absolute_visual_occupancy": true,
+      "chromium_occupied_area_mm2": true,
+      "interior_target_utilization": 0.9,
+      "front_target_utilization": 0.7,
+      "special_target_utilization": 0.8,
+      "empty_slot_penalty": 140.0,
+      "page_whitespace_penalty": 700.0,
+      "severe_whitespace_penalty": 1400.0,
+      "page_open_penalty": 35.0
+    },
+    "continuation": {
+      "split_weight": 32.0,
+      "nonlinear_split_cost": true,
+      "same_page_avoidable_split_penalty": true,
+      "shared_policy_for_future_allocator": "ContinuationPolicy"
+    }
+  },
+  "notes": [
+    "Large internal voids around side-image layouts are now visible to the page utilization score.",
+    "Actual DOM continuation flow is still a later module; current optimizer predicts and penalizes continuation."
+  ]
+}

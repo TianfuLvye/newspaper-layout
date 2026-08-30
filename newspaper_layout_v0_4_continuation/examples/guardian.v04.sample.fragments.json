@@ -1,0 +1,116 @@
+[
+  {
+    "id": "a01",
+    "title": "A calmer way to read the day",
+    "markdown": "## Signal over noise\n\nA carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about",
+    "images": [
+      {
+        "width_px": 1600,
+        "height_px": 900,
+        "src": null,
+        "alt": "Landscape image",
+        "caption": ""
+      }
+    ],
+    "priority": 0.96,
+    "kind": "long",
+    "preferred_page_type": null,
+    "metadata": {
+      "original_article_id": "a01",
+      "original_title": "A calmer way to read the day",
+      "fragment_index": 1,
+      "continuation_to_page": 3
+    }
+  },
+  {
+    "id": "a02",
+    "title": "Markets move as investors reassess the week",
+    "markdown": "## What changed\n\nFinancial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. Financial context and a concise explanation of market movement. ",
+    "images": [
+      {
+        "width_px": 1200,
+        "height_px": 800,
+        "src": null,
+        "alt": "Market image",
+        "caption": ""
+      }
+    ],
+    "priority": 0.72,
+    "kind": "normal",
+    "preferred_page_type": null,
+    "metadata": {}
+  },
+  {
+    "id": "a03",
+    "title": "Science notes",
+    "markdown": "## Research\n\nA short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. A short research summary with enough detail to be useful. ",
+    "images": [],
+    "priority": 0.56,
+    "kind": "normal",
+    "preferred_page_type": null,
+    "metadata": {}
+  },
+  {
+    "id": "a04",
+    "title": "Technology in brief",
+    "markdown": "A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. A concise technology item. ",
+    "images": [
+      {
+        "width_px": 900,
+        "height_px": 1200,
+        "src": null,
+        "alt": "Portrait illustration",
+        "caption": ""
+      }
+    ],
+    "priority": 0.42,
+    "kind": "brief",
+    "preferred_page_type": null,
+    "metadata": {}
+  },
+  {
+    "id": "a05",
+    "title": "Culture and books",
+    "markdown": "## Reading list\n\nNotes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. Notes on books, criticism and cultural life. ",
+    "images": [
+      {
+        "width_px": 1400,
+        "height_px": 900,
+        "src": null,
+        "alt": "Books image",
+        "caption": ""
+      }
+    ],
+    "priority": 0.62,
+    "kind": "normal",
+    "preferred_page_type": null,
+    "metadata": {}
+  },
+  {
+    "id": "a06",
+    "title": "System health report",
+    "markdown": "## Daily checks\n\nAutomated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. Automated diagnostics and operational notes. ",
+    "images": [],
+    "priority": 0.18,
+    "kind": "system_report",
+    "preferred_page_type": null,
+    "metadata": {}
+  },
+  {
+    "id": "a01::cont2",
+    "title": "A calmer way to read the day",
+    "markdown": "attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality. A carefully edited paragraph about attention, context and information quality.",
+    "images": [],
+    "priority": 0.96,
+    "kind": "long",
+    "preferred_page_type": null,
+    "metadata": {
+      "original_article_id": "a01",
+      "original_title": "A calmer way to read the day",
+      "fragment_index": 2,
+      "continuation": true,
+      "continuation_source_page_index": 1,
+      "continuation_from_page": 2
+    }
+  }
+]

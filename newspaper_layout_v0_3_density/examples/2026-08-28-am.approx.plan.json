@@ -1,0 +1,591 @@
+{
+  "total_cost": 4162.132882089842,
+  "pages": [
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p31",
+      "page_index": 0,
+      "assignments": [
+        {
+          "article_id": "am03",
+          "slot_id": "A",
+          "total": 15.566728395061725,
+          "fit": 4.9667283950617245,
+          "role": 0.36,
+          "image": 2.2,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 40.93973888888889,
+          "slot_height_mm": 47.519999999999996,
+          "occupied_area_mm2": 11176.548716666666
+        },
+        {
+          "article_id": "am25",
+          "slot_id": "B",
+          "total": 3.1669073083779082,
+          "fit": 0.9669073083779083,
+          "role": 0.43999999999999995,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 127.21542499999995,
+          "slot_height_mm": 134.64,
+          "occupied_area_mm2": 27682.07647999999
+        },
+        {
+          "article_id": "am06",
+          "slot_id": "C",
+          "total": 8.340274219694038,
+          "fit": 2.9402742196940372,
+          "role": 0.72,
+          "image": 0.45,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 296.0763888888888,
+          "slot_height_mm": 327.61080000000004,
+          "occupied_area_mm2": 15218.326388888883
+        },
+        {
+          "article_id": "am09",
+          "slot_id": "D",
+          "total": 3.5999999999999996,
+          "fit": 0.0,
+          "role": 0.72,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 186.2792444444444,
+          "slot_height_mm": 192.852,
+          "occupied_area_mm2": 40534.3635911111
+        }
+      ],
+      "template_cost": 0.0,
+      "order_cost": 0.0,
+      "whitespace_cost": 4.771533041798697,
+      "continuation_cost": 0.0,
+      "page_open_cost": 35.0,
+      "utilization": 0.8751555405397068,
+      "total_cost": 70.44544296493237
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p04",
+      "page_index": 1,
+      "assignments": [
+        {
+          "article_id": "am05",
+          "slot_id": "A",
+          "total": 5.3999999999999995,
+          "fit": 0.0,
+          "role": 0.72,
+          "image": 0.45,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 86.7973222222222,
+          "slot_height_mm": 88.30799999999999,
+          "occupied_area_mm2": 23695.66896666666
+        },
+        {
+          "article_id": "am18",
+          "slot_id": "B",
+          "total": 0.9999999999999998,
+          "fit": 0.0,
+          "role": 0.19999999999999996,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 258.5356944444445,
+          "slot_height_mm": 266.0328,
+          "occupied_area_mm2": 70580.24458333335
+        }
+      ],
+      "template_cost": 0.0,
+      "order_cost": 0.0,
+      "whitespace_cost": 5.593054284630301,
+      "continuation_cost": 0.0,
+      "page_open_cost": 35.0,
+      "utilization": 0.8720530723905725,
+      "total_cost": 46.993054284630304
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p31",
+      "page_index": 2,
+      "assignments": [
+        {
+          "article_id": "am19",
+          "slot_id": "A",
+          "total": 17.480889450056118,
+          "fit": 5.180889450056119,
+          "role": 0.7,
+          "image": 2.2,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 40.72771944444444,
+          "slot_height_mm": 47.519999999999996,
+          "occupied_area_mm2": 11118.667408333331
+        },
+        {
+          "article_id": "am11",
+          "slot_id": "B",
+          "total": 3.4499999999999997,
+          "fit": 0.0,
+          "role": 0.69,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 132.6161,
+          "slot_height_mm": 134.64,
+          "occupied_area_mm2": 28857.263359999997
+        },
+        {
+          "article_id": "am26",
+          "slot_id": "C",
+          "total": 10.489635371996165,
+          "fit": 7.289635371996166,
+          "role": 0.64,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 268.43847222222223,
+          "slot_height_mm": 327.61080000000004,
+          "occupied_area_mm2": 13797.737472222223
+        },
+        {
+          "article_id": "am17",
+          "slot_id": "D",
+          "total": 9.555014608925841,
+          "fit": 7.9150146089258415,
+          "role": 0.32800000000000007,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 156.30724444444436,
+          "slot_height_mm": 192.852,
+          "occupied_area_mm2": 34012.456391111096
+        }
+      ],
+      "template_cost": 0.0,
+      "order_cost": 8.32,
+      "whitespace_cost": 26.30267730071441,
+      "continuation_cost": 0.0,
+      "page_open_cost": 35.0,
+      "utilization": 0.8120224648653814,
+      "total_cost": 110.59821673169253
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p19",
+      "page_index": 3,
+      "assignments": [
+        {
+          "article_id": "am20",
+          "slot_id": "A",
+          "total": 0.9999999999999998,
+          "fit": 0.0,
+          "role": 0.19999999999999996,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 350.17221388888885,
+          "slot_height_mm": 354.6576,
+          "occupied_area_mm2": 95597.01439166666
+        }
+      ],
+      "template_cost": 0.0,
+      "order_cost": 0.0,
+      "whitespace_cost": 2.5737124218700944,
+      "continuation_cost": 0.0,
+      "page_open_cost": 35.0,
+      "utilization": 0.884273267396184,
+      "total_cost": 38.57371242187009
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p19",
+      "page_index": 4,
+      "assignments": [
+        {
+          "article_id": "am01",
+          "slot_id": "A",
+          "total": 7.435609092370241,
+          "fit": 2.7356090923702414,
+          "role": 0.94,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 322.031989099204,
+          "slot_height_mm": 354.6576,
+          "occupied_area_mm2": 87914.73302408269
+        }
+      ],
+      "template_cost": 0.0,
+      "order_cost": 0.9999999999999998,
+      "whitespace_cost": 25.823670731897906,
+      "continuation_cost": 0.0,
+      "page_open_cost": 35.0,
+      "utilization": 0.8132120936848585,
+      "total_cost": 69.25927982426815
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p19",
+      "page_index": 5,
+      "assignments": [
+        {
+          "article_id": "am02",
+          "slot_id": "A",
+          "total": 9.808892009979727,
+          "fit": 5.108892009979728,
+          "role": 0.94,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 304.4965136058628,
+          "slot_height_mm": 354.6576,
+          "occupied_area_mm2": 83127.54821440054
+        }
+      ],
+      "template_cost": 0.0,
+      "order_cost": 0.0,
+      "whitespace_cost": 45.0531182902659,
+      "continuation_cost": 0.0,
+      "page_open_cost": 35.0,
+      "utilization": 0.7689305899137949,
+      "total_cost": 89.86201030024563
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p19",
+      "page_index": 6,
+      "assignments": [
+        {
+          "article_id": "am21",
+          "slot_id": "A",
+          "total": 66.66282196141796,
+          "fit": 1.6628219614179591,
+          "role": 0.19999999999999996,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 2.0,
+          "predicted_splits": 1,
+          "required_height_mm": 388.7451583333333,
+          "slot_height_mm": 354.6576,
+          "occupied_area_mm2": 106127.42822499998
+        }
+      ],
+      "template_cost": 0.0,
+      "order_cost": 0.0,
+      "whitespace_cost": 0.46106181255763795,
+      "continuation_cost": 0.0,
+      "page_open_cost": 35.0,
+      "utilization": 0.8956,
+      "total_cost": 102.12388377397559
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p19",
+      "page_index": 7,
+      "assignments": [
+        {
+          "article_id": "am13",
+          "slot_id": "A",
+          "total": 71.51661860111015,
+          "fit": 5.316618601110151,
+          "role": 0.43999999999999995,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 2.0,
+          "predicted_splits": 1,
+          "required_height_mm": 415.60999450519097,
+          "slot_height_mm": 354.6576,
+          "occupied_area_mm2": 113461.52849991713
+        }
+      ],
+      "template_cost": 0.0,
+      "order_cost": 0.16000000000000014,
+      "whitespace_cost": 0.46106181255763795,
+      "continuation_cost": 0.0,
+      "page_open_cost": 35.0,
+      "utilization": 0.8956,
+      "total_cost": 107.13768041366778
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p19",
+      "page_index": 8,
+      "assignments": [
+        {
+          "article_id": "am08",
+          "slot_id": "A",
+          "total": 91.03341991364219,
+          "fit": 23.433419913642194,
+          "role": 0.72,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 2.0,
+          "predicted_splits": 1,
+          "required_height_mm": 482.62249826388876,
+          "slot_height_mm": 354.6576,
+          "occupied_area_mm2": 131755.94202604162
+        }
+      ],
+      "template_cost": 0.0,
+      "order_cost": 0.0,
+      "whitespace_cost": 0.46106181255763795,
+      "continuation_cost": 0.0,
+      "page_open_cost": 35.0,
+      "utilization": 0.8956,
+      "total_cost": 126.49448172619982
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p19",
+      "page_index": 9,
+      "assignments": [
+        {
+          "article_id": "am12",
+          "slot_id": "A",
+          "total": 98.02943803559562,
+          "fit": 31.71943803559562,
+          "role": 0.46199999999999997,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 2.0,
+          "predicted_splits": 1,
+          "required_height_mm": 503.53739444444426,
+          "slot_height_mm": 354.6576,
+          "occupied_area_mm2": 137465.70868333327
+        }
+      ],
+      "template_cost": 0.0,
+      "order_cost": 0.0,
+      "whitespace_cost": 0.46106181255763795,
+      "continuation_cost": 0.0,
+      "page_open_cost": 35.0,
+      "utilization": 0.8956,
+      "total_cost": 133.49049984815326
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p19",
+      "page_index": 10,
+      "assignments": [
+        {
+          "article_id": "am22",
+          "slot_id": "A",
+          "total": 98.08258011440142,
+          "fit": 29.882580114401417,
+          "role": 0.19999999999999996,
+          "image": 0.8,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 2.0,
+          "predicted_splits": 1,
+          "required_height_mm": 499.16233055555546,
+          "slot_height_mm": 354.6576,
+          "occupied_area_mm2": 136271.31624166665
+        }
+      ],
+      "template_cost": 0.0,
+      "order_cost": 0.0,
+      "whitespace_cost": 0.46106181255763795,
+      "continuation_cost": 0.0,
+      "page_open_cost": 35.0,
+      "utilization": 0.8956,
+      "total_cost": 133.54364192695905
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p19",
+      "page_index": 11,
+      "assignments": [
+        {
+          "article_id": "am23",
+          "slot_id": "A",
+          "total": 101.62599965707969,
+          "fit": 36.62599965707968,
+          "role": 0.19999999999999996,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 2.0,
+          "predicted_splits": 1,
+          "required_height_mm": 514.6383622759859,
+          "slot_height_mm": 354.6576,
+          "occupied_area_mm2": 140496.27290134414
+        }
+      ],
+      "template_cost": 0.0,
+      "order_cost": 0.0,
+      "whitespace_cost": 0.46106181255763795,
+      "continuation_cost": 0.0,
+      "page_open_cost": 35.0,
+      "utilization": 0.8956,
+      "total_cost": 137.08706146963732
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p19",
+      "page_index": 12,
+      "assignments": [
+        {
+          "article_id": "am07",
+          "slot_id": "A",
+          "total": 117.96670449525155,
+          "fit": 50.36670449525155,
+          "role": 0.72,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 2.0,
+          "predicted_splits": 1,
+          "required_height_mm": 542.2627629762784,
+          "slot_height_mm": 354.6576,
+          "occupied_area_mm2": 148037.734292524
+        }
+      ],
+      "template_cost": 0.0,
+      "order_cost": 0.0,
+      "whitespace_cost": 0.46106181255763795,
+      "continuation_cost": 0.0,
+      "page_open_cost": 35.0,
+      "utilization": 0.8956,
+      "total_cost": 153.42776630780918
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p19",
+      "page_index": 13,
+      "assignments": [
+        {
+          "article_id": "am16",
+          "slot_id": "A",
+          "total": 131.78155124183468,
+          "fit": 65.98155124183467,
+          "role": 0.3600000000000001,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 2.0,
+          "predicted_splits": 1,
+          "required_height_mm": 569.3834245575866,
+          "slot_height_mm": 354.6576,
+          "occupied_area_mm2": 155441.67490422114
+        }
+      ],
+      "template_cost": 0.0,
+      "order_cost": 0.0,
+      "whitespace_cost": 0.46106181255763795,
+      "continuation_cost": 0.0,
+      "page_open_cost": 35.0,
+      "utilization": 0.8956,
+      "total_cost": 167.2426130543923
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p19",
+      "page_index": 14,
+      "assignments": [
+        {
+          "article_id": "am10",
+          "slot_id": "A",
+          "total": 148.93948799389136,
+          "fit": 81.42948799389136,
+          "role": 0.702,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 2.0,
+          "predicted_splits": 1,
+          "required_height_mm": 593.1990585069445,
+          "slot_height_mm": 354.6576,
+          "occupied_area_mm2": 161943.34297239585
+        }
+      ],
+      "template_cost": 0.0,
+      "order_cost": 0.0,
+      "whitespace_cost": 0.46106181255763795,
+      "continuation_cost": 0.0,
+      "page_open_cost": 35.0,
+      "utilization": 0.8956,
+      "total_cost": 184.400549806449
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p09",
+      "page_index": 15,
+      "assignments": [
+        {
+          "article_id": "am24",
+          "slot_id": "A",
+          "total": 780.4907929721455,
+          "fit": 587.6907929721455,
+          "role": 0.6399999999999999,
+          "image": 1.4,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 5.75,
+          "predicted_splits": 2,
+          "required_height_mm": 765.850447222222,
+          "slot_height_mm": 272.844,
+          "occupied_area_mm2": 124220.9425394444
+        },
+        {
+          "article_id": "am14",
+          "slot_id": "B",
+          "total": 225.6808421878441,
+          "fit": 217.8808421878441,
+          "role": 0.43999999999999995,
+          "image": 1.4,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 29.05853611111111,
+          "slot_height_mm": 271.7748,
+          "occupied_area_mm2": 3103.4516566666666
+        },
+        {
+          "article_id": "am04",
+          "slot_id": "C",
+          "total": 169.5209091878344,
+          "fit": 160.1209091878344,
+          "role": 0.76,
+          "image": 1.4,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 17.81903611111111,
+          "slot_height_mm": 78.88319999999997,
+          "occupied_area_mm2": 4864.596858333333
+        }
+      ],
+      "template_cost": 0.0,
+      "order_cost": 0.0,
+      "whitespace_cost": 280.7604428871348,
+      "continuation_cost": 0.0,
+      "page_open_cost": 35.0,
+      "utilization": 0.4830664272301772,
+      "total_cost": 1491.4529872349588
+    }
+  ],
+  "unassigned_article_ids": [
+    "am15"
+  ]
+}

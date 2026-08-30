@@ -1,0 +1,807 @@
+{
+  "status": "ok",
+  "total_templates": 18,
+  "zip_results": [
+    {
+      "file": "The_Guardian_UK_-_16_April_templates.zip",
+      "template_count": 8,
+      "template_ids": [
+        "The_Guardian_UK_-_16_April_p03",
+        "The_Guardian_UK_-_16_April_p06",
+        "The_Guardian_UK_-_16_April_p07",
+        "The_Guardian_UK_-_16_April_p09",
+        "The_Guardian_UK_-_16_April_p10",
+        "The_Guardian_UK_-_16_April_p29",
+        "The_Guardian_UK_-_16_April_p33",
+        "The_Guardian_UK_-_16_April_p39"
+      ]
+    },
+    {
+      "file": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_templates.zip",
+      "template_count": 10,
+      "template_ids": [
+        "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p01",
+        "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p02",
+        "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p04",
+        "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p09",
+        "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p11",
+        "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p15",
+        "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p19",
+        "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p29",
+        "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p31",
+        "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p36"
+      ]
+    }
+  ],
+  "page_types": {
+    "interior": 17,
+    "front": 1
+  },
+  "column_counts": {
+    "5": 18
+  },
+  "story_count_range": [
+    1,
+    4
+  ],
+  "features": [
+    {
+      "template_id": "The_Guardian_UK_-_16_April_p03",
+      "story_count": 2,
+      "column_count": 5,
+      "page_type": "interior",
+      "personal_rating": 4,
+      "width_spans": [
+        4,
+        1
+      ],
+      "normalized_heights": [
+        0.8891,
+        0.888
+      ],
+      "normalized_areas": [
+        0.71128,
+        0.1776
+      ],
+      "role_counts": {
+        "lead": 1,
+        "normal": 1
+      },
+      "image_style_counts": {
+        "large": 1,
+        "small": 1
+      },
+      "image_position_counts": {
+        "top": 1,
+        "middle": 1
+      },
+      "headline_counts": {
+        "large": 1,
+        "medium": 1
+      },
+      "largest_story_area": 0.71128,
+      "area_fragmentation": 0.19980199801998022,
+      "width_variance": 2.25,
+      "vertical_balance": 0.526639415894159,
+      "horizontal_balance": 0.4999009990099902,
+      "top_alignment_pairs": 1,
+      "bottom_alignment_pairs": 1
+    },
+    {
+      "template_id": "The_Guardian_UK_-_16_April_p06",
+      "story_count": 2,
+      "column_count": 5,
+      "page_type": "interior",
+      "personal_rating": 3,
+      "width_spans": [
+        2,
+        3
+      ],
+      "normalized_heights": [
+        0.8854,
+        0.8856999999999999
+      ],
+      "normalized_areas": [
+        0.35416000000000003,
+        0.5314199999999999
+      ],
+      "role_counts": {
+        "secondary": 1,
+        "normal": 1
+      },
+      "image_style_counts": {
+        "large": 1
+      },
+      "image_position_counts": {
+        "top": 1
+      },
+      "headline_counts": {
+        "large": 1,
+        "medium": 1
+      },
+      "largest_story_area": 0.5314199999999999,
+      "area_fragmentation": 0.3999186973508888,
+      "width_variance": 0.25,
+      "vertical_balance": 0.5283301666704308,
+      "horizontal_balance": 0.5000406513245556,
+      "top_alignment_pairs": 1,
+      "bottom_alignment_pairs": 1
+    },
+    {
+      "template_id": "The_Guardian_UK_-_16_April_p07",
+      "story_count": 3,
+      "column_count": 5,
+      "page_type": "interior",
+      "personal_rating": 5,
+      "width_spans": [
+        2,
+        3,
+        3
+      ],
+      "normalized_heights": [
+        0.8827999999999999,
+        0.5563,
+        0.3206000000000001
+      ],
+      "normalized_areas": [
+        0.35312,
+        0.33378,
+        0.19236000000000006
+      ],
+      "role_counts": {
+        "normal": 3
+      },
+      "image_style_counts": {
+        "large": 1,
+        "small": 1
+      },
+      "image_position_counts": {
+        "left": 1,
+        "middle": 1
+      },
+      "headline_counts": {
+        "small": 1,
+        "medium": 2
+      },
+      "largest_story_area": 0.35312,
+      "area_fragmentation": 0.5983895548529445,
+      "width_variance": 0.2222222222222222,
+      "vertical_balance": 0.5270037247230626,
+      "horizontal_balance": 0.4991947774264723,
+      "top_alignment_pairs": 1,
+      "bottom_alignment_pairs": 1
+    },
+    {
+      "template_id": "The_Guardian_UK_-_16_April_p09",
+      "story_count": 3,
+      "column_count": 5,
+      "page_type": "interior",
+      "personal_rating": 4,
+      "width_spans": [
+        2,
+        3,
+        3
+      ],
+      "normalized_heights": [
+        0.8933,
+        0.6505,
+        0.23739999999999994
+      ],
+      "normalized_areas": [
+        0.35732,
+        0.3903,
+        0.14243999999999996
+      ],
+      "role_counts": {
+        "normal": 3
+      },
+      "image_style_counts": {
+        "medium": 1,
+        "large": 1
+      },
+      "image_position_counts": {
+        "middle": 1,
+        "top": 1
+      },
+      "headline_counts": {
+        "large": 1,
+        "medium": 2
+      },
+      "largest_story_area": 0.3903,
+      "area_fragmentation": 0.561490236613262,
+      "width_variance": 0.2222222222222222,
+      "vertical_balance": 0.5247219928993552,
+      "horizontal_balance": 0.49927195919376216,
+      "top_alignment_pairs": 1,
+      "bottom_alignment_pairs": 1
+    },
+    {
+      "template_id": "The_Guardian_UK_-_16_April_p10",
+      "story_count": 1,
+      "column_count": 5,
+      "page_type": "interior",
+      "personal_rating": 4,
+      "width_spans": [
+        5
+      ],
+      "normalized_heights": [
+        0.8846
+      ],
+      "normalized_areas": [
+        0.8846
+      ],
+      "role_counts": {
+        "lead": 1
+      },
+      "image_style_counts": {
+        "large": 1
+      },
+      "image_position_counts": {
+        "right": 1
+      },
+      "headline_counts": {
+        "very_large": 1
+      },
+      "largest_story_area": 0.8846,
+      "area_fragmentation": 0.0,
+      "width_variance": 0.0,
+      "vertical_balance": 0.5274,
+      "horizontal_balance": 0.5,
+      "top_alignment_pairs": 0,
+      "bottom_alignment_pairs": 0
+    },
+    {
+      "template_id": "The_Guardian_UK_-_16_April_p29",
+      "story_count": 3,
+      "column_count": 5,
+      "page_type": "interior",
+      "personal_rating": 4,
+      "width_spans": [
+        4,
+        1,
+        4
+      ],
+      "normalized_heights": [
+        0.31060000000000004,
+        0.8899,
+        0.5791000000000001
+      ],
+      "normalized_areas": [
+        0.24848000000000003,
+        0.17798000000000003,
+        0.4632800000000001
+      ],
+      "role_counts": {
+        "normal": 3
+      },
+      "image_style_counts": {
+        "small": 1,
+        "large": 1
+      },
+      "image_position_counts": {
+        "top": 2
+      },
+      "headline_counts": {
+        "medium": 1,
+        "small": 2
+      },
+      "largest_story_area": 0.4632800000000001,
+      "area_fragmentation": 0.47930856205183536,
+      "width_variance": 2,
+      "vertical_balance": 0.5260877233798638,
+      "horizontal_balance": 0.5000179827814867,
+      "top_alignment_pairs": 1,
+      "bottom_alignment_pairs": 1
+    },
+    {
+      "template_id": "The_Guardian_UK_-_16_April_p33",
+      "story_count": 4,
+      "column_count": 5,
+      "page_type": "interior",
+      "personal_rating": 5,
+      "width_spans": [
+        5,
+        4,
+        1,
+        5
+      ],
+      "normalized_heights": [
+        0.11769999999999999,
+        0.6396,
+        0.6335,
+        0.1784
+      ],
+      "normalized_areas": [
+        0.11769999999999999,
+        0.51168,
+        0.1267,
+        0.1784
+      ],
+      "role_counts": {
+        "brief": 2,
+        "normal": 2
+      },
+      "image_style_counts": {
+        "large": 2
+      },
+      "image_position_counts": {
+        "left": 1,
+        "right": 1
+      },
+      "headline_counts": {
+        "very_large": 1,
+        "large": 1,
+        "small": 1,
+        "medium": 1
+      },
+      "largest_story_area": 0.51168,
+      "area_fragmentation": 0.452444140056502,
+      "width_variance": 2.6875,
+      "vertical_balance": 0.5010935814570671,
+      "horizontal_balance": 0.4994777844362641,
+      "top_alignment_pairs": 1,
+      "bottom_alignment_pairs": 1
+    },
+    {
+      "template_id": "The_Guardian_UK_-_16_April_p39",
+      "story_count": 3,
+      "column_count": 5,
+      "page_type": "interior",
+      "personal_rating": 4,
+      "width_spans": [
+        3,
+        2,
+        2
+      ],
+      "normalized_heights": [
+        0.8948,
+        0.6575,
+        0.22919999999999996
+      ],
+      "normalized_areas": [
+        0.53688,
+        0.263,
+        0.09167999999999998
+      ],
+      "role_counts": {
+        "normal": 3
+      },
+      "image_style_counts": {
+        "medium": 1,
+        "small": 2
+      },
+      "image_position_counts": {
+        "top": 1,
+        "left": 1,
+        "right": 1
+      },
+      "headline_counts": {
+        "large": 1,
+        "small": 2
+      },
+      "largest_story_area": 0.53688,
+      "area_fragmentation": 0.39781955224550225,
+      "width_variance": 0.2222222222222222,
+      "vertical_balance": 0.5204047265467271,
+      "horizontal_balance": 0.4989097761227511,
+      "top_alignment_pairs": 1,
+      "bottom_alignment_pairs": 1
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p01",
+      "story_count": 3,
+      "column_count": 5,
+      "page_type": "front",
+      "personal_rating": 4,
+      "width_spans": [
+        5,
+        1,
+        4
+      ],
+      "normalized_heights": [
+        0.28120000000000006,
+        0.4345,
+        0.4394
+      ],
+      "normalized_areas": [
+        0.28120000000000006,
+        0.0869,
+        0.35152000000000005
+      ],
+      "role_counts": {
+        "lead": 1,
+        "brief": 1,
+        "normal": 1
+      },
+      "image_style_counts": {
+        "large": 1
+      },
+      "image_position_counts": {
+        "top": 1
+      },
+      "headline_counts": {
+        "very_large": 1,
+        "medium": 2
+      },
+      "largest_story_area": 0.35152000000000005,
+      "area_fragmentation": 0.5115199688724605,
+      "width_variance": 2.888888888888889,
+      "vertical_balance": 0.6253738431394347,
+      "horizontal_balance": 0.5005447319418581,
+      "top_alignment_pairs": 1,
+      "bottom_alignment_pairs": 1
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p02",
+      "story_count": 3,
+      "column_count": 5,
+      "page_type": "interior",
+      "personal_rating": 2,
+      "width_spans": [
+        4,
+        1,
+        4
+      ],
+      "normalized_heights": [
+        0.4124,
+        0.9438,
+        0.5351000000000001
+      ],
+      "normalized_areas": [
+        0.32992,
+        0.18876,
+        0.4280800000000001
+      ],
+      "role_counts": {
+        "normal": 2,
+        "brief": 1
+      },
+      "image_style_counts": {
+        "small": 1,
+        "medium": 1
+      },
+      "image_position_counts": {
+        "middle": 1,
+        "top": 1
+      },
+      "headline_counts": {
+        "medium": 3
+      },
+      "largest_story_area": 0.4280800000000001,
+      "area_fragmentation": 0.5478473953272212,
+      "width_variance": 2,
+      "vertical_balance": 0.5094363428957709,
+      "horizontal_balance": 0.5003126452321602,
+      "top_alignment_pairs": 1,
+      "bottom_alignment_pairs": 1
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p04",
+      "story_count": 2,
+      "column_count": 5,
+      "page_type": "interior",
+      "personal_rating": 5,
+      "width_spans": [
+        5,
+        5
+      ],
+      "normalized_heights": [
+        0.22299999999999998,
+        0.6718000000000001
+      ],
+      "normalized_areas": [
+        0.22299999999999998,
+        0.6718000000000001
+      ],
+      "role_counts": {
+        "normal": 2
+      },
+      "image_style_counts": {
+        "large": 1
+      },
+      "image_position_counts": {
+        "right": 1
+      },
+      "headline_counts": {
+        "medium": 2
+      },
+      "largest_story_area": 0.6718000000000001,
+      "area_fragmentation": 0.24921770227983908,
+      "width_variance": 0,
+      "vertical_balance": 0.535804067948145,
+      "horizontal_balance": 0.5,
+      "top_alignment_pairs": 0,
+      "bottom_alignment_pairs": 0
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p09",
+      "story_count": 3,
+      "column_count": 5,
+      "page_type": "interior",
+      "personal_rating": 5,
+      "width_spans": [
+        3,
+        2,
+        5
+      ],
+      "normalized_heights": [
+        0.689,
+        0.6863,
+        0.19919999999999993
+      ],
+      "normalized_areas": [
+        0.41339999999999993,
+        0.27452000000000004,
+        0.19919999999999993
+      ],
+      "role_counts": {
+        "secondary": 1,
+        "normal": 2
+      },
+      "image_style_counts": {
+        "medium": 1,
+        "small": 2
+      },
+      "image_position_counts": {
+        "top": 2,
+        "middle": 1
+      },
+      "headline_counts": {
+        "medium": 1,
+        "small": 2
+      },
+      "largest_story_area": 0.41339999999999993,
+      "area_fragmentation": 0.5339976553341149,
+      "width_variance": 1.5555555555555556,
+      "vertical_balance": 0.5353624650554604,
+      "horizontal_balance": 0.49963477319866534,
+      "top_alignment_pairs": 1,
+      "bottom_alignment_pairs": 1
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p11",
+      "story_count": 3,
+      "column_count": 5,
+      "page_type": "interior",
+      "personal_rating": 4,
+      "width_spans": [
+        2,
+        3,
+        3
+      ],
+      "normalized_heights": [
+        0.8975,
+        0.5073,
+        0.3852
+      ],
+      "normalized_areas": [
+        0.359,
+        0.30438,
+        0.23112
+      ],
+      "role_counts": {
+        "normal": 3
+      },
+      "image_style_counts": {
+        "medium": 2
+      },
+      "image_position_counts": {
+        "top": 1,
+        "right": 1
+      },
+      "headline_counts": {
+        "medium": 2,
+        "small": 1
+      },
+      "largest_story_area": 0.359,
+      "area_fragmentation": 0.5986584684181107,
+      "width_variance": 0.2222222222222222,
+      "vertical_balance": 0.5347852375628843,
+      "horizontal_balance": 0.4993292342090553,
+      "top_alignment_pairs": 1,
+      "bottom_alignment_pairs": 1
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p15",
+      "story_count": 1,
+      "column_count": 5,
+      "page_type": "interior",
+      "personal_rating": 3,
+      "width_spans": [
+        5
+      ],
+      "normalized_heights": [
+        0.9542
+      ],
+      "normalized_areas": [
+        0.9542
+      ],
+      "role_counts": {
+        "normal": 1
+      },
+      "image_style_counts": {
+        "large": 1
+      },
+      "image_position_counts": {
+        "left": 1
+      },
+      "headline_counts": {
+        "medium": 1
+      },
+      "largest_story_area": 0.9542,
+      "area_fragmentation": 0.0,
+      "width_variance": 0.0,
+      "vertical_balance": 0.5077,
+      "horizontal_balance": 0.5,
+      "top_alignment_pairs": 0,
+      "bottom_alignment_pairs": 0
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p19",
+      "story_count": 1,
+      "column_count": 5,
+      "page_type": "interior",
+      "personal_rating": 5,
+      "width_spans": [
+        5
+      ],
+      "normalized_heights": [
+        0.8956
+      ],
+      "normalized_areas": [
+        0.8956
+      ],
+      "role_counts": {
+        "normal": 1
+      },
+      "image_style_counts": {
+        "large": 1
+      },
+      "image_position_counts": {
+        "top": 1
+      },
+      "headline_counts": {
+        "very_large": 1
+      },
+      "largest_story_area": 0.8956,
+      "area_fragmentation": 0.0,
+      "width_variance": 0.0,
+      "vertical_balance": 0.5362,
+      "horizontal_balance": 0.5,
+      "top_alignment_pairs": 0,
+      "bottom_alignment_pairs": 0
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p29",
+      "story_count": 1,
+      "column_count": 5,
+      "page_type": "interior",
+      "personal_rating": 4,
+      "width_spans": [
+        5
+      ],
+      "normalized_heights": [
+        0.9543999999999999
+      ],
+      "normalized_areas": [
+        0.9543999999999999
+      ],
+      "role_counts": {
+        "normal": 1
+      },
+      "image_style_counts": {
+        "large": 1
+      },
+      "image_position_counts": {
+        "middle": 1
+      },
+      "headline_counts": {
+        "large": 1
+      },
+      "largest_story_area": 0.9543999999999999,
+      "area_fragmentation": 0.0,
+      "width_variance": 0.0,
+      "vertical_balance": 0.5101,
+      "horizontal_balance": 0.5,
+      "top_alignment_pairs": 0,
+      "bottom_alignment_pairs": 0
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p31",
+      "story_count": 4,
+      "column_count": 5,
+      "page_type": "interior",
+      "personal_rating": 5,
+      "width_spans": [
+        5,
+        4,
+        1,
+        4
+      ],
+      "normalized_heights": [
+        0.12,
+        0.33999999999999997,
+        0.8273,
+        0.487
+      ],
+      "normalized_areas": [
+        0.12,
+        0.27199999999999996,
+        0.16546000000000002,
+        0.3896
+      ],
+      "role_counts": {
+        "brief": 1,
+        "normal": 3
+      },
+      "image_style_counts": {
+        "large": 1,
+        "medium": 1
+      },
+      "image_position_counts": {
+        "left": 1,
+        "right": 1
+      },
+      "headline_counts": {
+        "very_large": 1,
+        "large": 1,
+        "medium": 2
+      },
+      "largest_story_area": 0.3896,
+      "area_fragmentation": 0.5886216290414545,
+      "width_variance": 2.25,
+      "vertical_balance": 0.5117293297151184,
+      "horizontal_balance": 0.5000253415834266,
+      "top_alignment_pairs": 1,
+      "bottom_alignment_pairs": 1
+    },
+    {
+      "template_id": "The_Guardian_-_2_Jul_2025_freemagazinespdf_com_p36",
+      "story_count": 4,
+      "column_count": 5,
+      "page_type": "interior",
+      "personal_rating": 5,
+      "width_spans": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "normalized_heights": [
+        0.3537,
+        0.7127,
+        0.5411000000000001,
+        0.18609999999999993
+      ],
+      "normalized_areas": [
+        0.21222,
+        0.28508,
+        0.32466000000000006,
+        0.07443999999999998
+      ],
+      "role_counts": {
+        "normal": 2,
+        "secondary": 1,
+        "brief": 1
+      },
+      "image_style_counts": {
+        "small": 3
+      },
+      "image_position_counts": {
+        "right": 2,
+        "middle": 1
+      },
+      "headline_counts": {
+        "medium": 3,
+        "small": 1
+      },
+      "largest_story_area": 0.32466000000000006,
+      "area_fragmentation": 0.637817938420348,
+      "width_variance": 0.25,
+      "vertical_balance": 0.5339600423917894,
+      "horizontal_balance": 0.5005354752342704,
+      "top_alignment_pairs": 1,
+      "bottom_alignment_pairs": 1
+    }
+  ]
+}

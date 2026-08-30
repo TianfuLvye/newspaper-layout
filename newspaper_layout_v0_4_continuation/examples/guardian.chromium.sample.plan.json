@@ -1,0 +1,108 @@
+{
+  "total_cost": 34.78725895548584,
+  "pages": [
+    {
+      "template_id": "The_Guardian_UK_-_16_April_p07",
+      "page_index": 0,
+      "assignments": [
+        {
+          "article_id": "a05",
+          "slot_id": "A",
+          "total": 3.534567804833955,
+          "fit": 2.3345678048339553,
+          "role": 0.24,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 230.812799735406,
+          "slot_height_mm": 349.5888
+        },
+        {
+          "article_id": "a04",
+          "slot_id": "B",
+          "total": 2.539175949628513,
+          "fit": 1.7391759496285126,
+          "role": 0.16000000000000003,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 161.15429138415743,
+          "slot_height_mm": 220.2948
+        },
+        {
+          "article_id": "a03",
+          "slot_id": "C",
+          "total": 3.3845582946107915,
+          "fit": 2.784558294610791,
+          "role": 0.1200000000000001,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 77.29039192988259,
+          "slot_height_mm": 126.95760000000004
+        }
+      ],
+      "template_cost": 0.0,
+      "order_cost": 0.0,
+      "total_cost": 9.458302049073259
+    },
+    {
+      "template_id": "The_Guardian_UK_-_16_April_p09",
+      "page_index": 1,
+      "assignments": [
+        {
+          "article_id": "a01",
+          "slot_id": "A",
+          "total": 15.336594615092938,
+          "fit": 0.7365946150929383,
+          "role": 0.9199999999999999,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 1.0,
+          "predicted_splits": 1,
+          "required_height_mm": 381.46188192492144,
+          "slot_height_mm": 353.7468
+        },
+        {
+          "article_id": "a02",
+          "slot_id": "B",
+          "total": 2.4602476226449603,
+          "fit": 0.26024762264496054,
+          "role": 0.43999999999999995,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 242.46733917645113,
+          "slot_height_mm": 257.598
+        },
+        {
+          "article_id": "a06",
+          "slot_id": "C",
+          "total": 3.7721146686746776,
+          "fit": 0.5721146686746774,
+          "role": 0.64,
+          "image": 0.0,
+          "headline": 0.0,
+          "kind": 0.0,
+          "split": 0.0,
+          "predicted_splits": 0,
+          "required_height_mm": 83.64064825533322,
+          "slot_height_mm": 94.01039999999998
+        }
+      ],
+      "template_cost": 1.5,
+      "order_cost": 2.26,
+      "total_cost": 25.32895690641258
+    }
+  ],
+  "unassigned_article_ids": []
+}
